@@ -1,0 +1,288 @@
+/* Import from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap");
+/* Variables */
+/* Responsive font sizes */
+/* Classes componete*/
+.btn-primary {
+  background-color: #CD4F4C;
+  padding: 1.3rem 2rem;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: #ffff;
+  text-decoration: none;
+  border-radius: 3px;
+  display: block;
+  margin-bottom: 2rem;
+  width: 80%;
+  transition: background 0.2s ease-in-out;
+}
+.btn-primary:hover {
+  background-color: #c04341;
+  transition: background 0.2s ease-in-out;
+}
+
+.text-link {
+  color: #5CD0A3;
+  margin: 50px 0 0 0;
+  text-align: center;
+  font-size: 1.3rem;
+  display: block;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 3px;
+  transition: background 0.2s ease-in-out;
+}
+.text-link:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.05);
+  transition: background 0.2s ease-in-out;
+}
+
+body {
+  line-height: 1rem;
+  font-family: "Cairo", sans-serif;
+  background: url("/imagens/bg.jpg") no-repeat, #222831;
+  background-position: top 0px left -500px;
+}
+
+/* Body Media Queries */
+@media (min-width: 900px) {
+  body {
+    background-size: cover;
+    background: url("/imagens/bg.jpg") no-repeat, #222831;
+    background-position: center top -350px;
+  }
+}
+.header {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 50px 0 0 0;
+}
+
+.header-nav {
+  background-color: rgba(117, 166, 255, 0.3);
+  padding: 1rem;
+  border-radius: 3px;
+  width: 300px;
+  margin: 15px 0 0 0;
+}
+
+.header-nav__nav-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+.header-nav__nav-links a {
+  color: #ffff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+.header-nav__nav-links a:hover {
+  color: #5CD0A3;
+  transition: color 0.3s ease-in-out;
+}
+
+/*tutoriais*/
+.tutoriais {
+  margin: 50px 0 0 0;
+}
+.tutoriais h1 {
+  font-size: 2.25rem;
+  color: #58A285;
+  text-align: center;
+}
+.tutoriais p {
+  font-size: 1.3rem;
+  text-align: center;
+  color: #ffff;
+  width: 80%;
+  margin: 40px auto;
+  line-height: 160%;
+  letter-spacing: 1px;
+}
+
+.tutoriais__cards-card {
+  background-color: #363F4F;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  min-height: 400px;
+  height: auto;
+  margin: 0 auto 50px auto;
+  border-radius: 5px;
+  padding: 50px 0 50px 0;
+}
+
+.tutoriais__card--body {
+  text-align: center;
+}
+.tutoriais__card--body img {
+  width: 180px;
+  height: auto;
+}
+.tutoriais__card--body h3 {
+  margin: 30px 0 0 0;
+  font-size: 2.5rem;
+  line-height: 130%;
+  color: #ffff;
+  font-weight: 600;
+}
+.tutoriais__card--body p {
+  margin: 40px auto;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  color: #ffff;
+  text-align: center;
+  width: 80%;
+  letter-spacing: 1px;
+}
+
+.equip__card--footer {
+  background-color: #49576D;
+  width: 100%;
+  padding: 25px 0;
+  border-radius: 0 0 5px 5px;
+}
+
+.card__footer--icons {
+  display: flex;
+  width: 200px;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.card__footer--icons a {
+  transform: translateY(0px);
+  transition: all 0.3s ease-in-out;
+}
+.card__footer--icons a:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s ease-in-out;
+}
+
+.card__footer--icons a {
+  color: #ffff;
+  font-size: 1.5rem;
+}
+
+/* tutoriais media queries */
+@media (min-width: 900px) {
+  .tutoriais p {
+    width: 60%;
+  }
+
+  .tutoriais {
+    margin-top: 100px;
+  }
+  .tutoriais h1 {
+    font-size: 3rem;
+    color: #5CD0A3;
+  }
+
+  .tutoriais__cards {
+    width: 80%;
+    margin: 60px auto 100px auto;
+    display: flex;
+    flex-flow: wrap;
+  }
+
+  .tutoriais__cards-card {
+    width: 46%;
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 1400px) {
+  .tutoriais p {
+    width: 40%;
+  }
+
+  .tutoriais__cards {
+    width: 90%;
+  }
+
+  .tutoriais__cards-card {
+    width: 380px;
+  }
+}
+@media (min-width: 1600px) {
+  .tutoriais__cards {
+    width: 80%;
+  }
+
+  .tutoriais__cards-card {
+    width: 300px;
+  }
+}
+@media (min-width: 1900px) {
+  .tutoriais__cards {
+    width: 70%;
+  }
+
+  .tutoriais__cards-card {
+    width: 400px;
+  }
+}
+/* Footer Styles */
+.footer p {
+  color: #ffff;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.footer__nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem 0rem;
+  width: 60%;
+  margin: 0 auto;
+}
+.footer__nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  color: #58A285;
+  transition: color 0.3s ease-in-out;
+}
+.footer__nav a:hover {
+  color: #5CD0A3;
+  transition: color 0.2s ease-in-out;
+}
+
+/* Footer-nav Media Queries */
+@media (min-width: 900px) {
+  .footer__nav {
+    width: 30%;
+  }
+}
+@media (min-width: 1400px) {
+  .footer__nav {
+    width: 20%;
+  }
+}
+/*=============================================
+=            Scrollbar Styles            =
+=============================================*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Background */
+::-webkit-scrollbar-track {
+  background-color: #222831;
+}
+
+/* Scroll bar handle */
+::-webkit-scrollbar-thumb {
+  background: #5cd0a3;
+  background: linear-gradient(170deg, #5cd0a3 0%, #52e97d 73%, #4afb62 100%);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+/*=====  End of Scrollbar Styles  ======*/

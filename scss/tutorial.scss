@@ -1,0 +1,255 @@
+@use 'colors';
+@use 'fonts';
+@use 'animations';
+
+
+/* Classes componete*/
+
+.btn-primary{
+    background-color: colors.$seconday-color;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: colors.$text-color;
+    text-decoration: none;
+    border-radius: 3px;
+    display: block;
+    margin-bottom: 2rem;
+    width: 80%;
+    transition: background .2s ease-in-out;
+    &:hover{
+        background-color: #c04341;
+        transition: background .2s ease-in-out;
+    }
+}
+
+.text-link{
+    color: colors.$light-green;
+    margin: 50px 0 0 0;
+    text-align: center;
+    font-size: 1.3rem;
+    display: block;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 3px;
+    transition: background .2s ease-in-out;
+    &:hover{
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, .05);
+        transition: background .2s ease-in-out;
+    }
+}
+
+
+
+body{
+    line-height: fonts.$font-size-body;
+    font-family: fonts.$font-family;
+    background: url('/imagens/bg.jpg') no-repeat, colors.$background-color;
+    background-position: top 0px left -500px ;
+}
+
+
+/* Body Media Queries */
+
+@media (min-width: 900px){
+    body{
+        background-size: cover;
+        background: url('/imagens/bg.jpg') no-repeat, colors.$background-color;
+        background-position: center top -350px;
+    }
+}
+
+.header{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 50px 0 0 0;
+}
+
+.header-nav{
+ background-color: colors.$navbar-background;
+ padding: 1rem;
+ border-radius: 3px;
+ width: 300px;
+ margin: 15px 0 0 0;
+}
+
+.header-nav__nav-links{
+    display: flex;
+    justify-content: space-evenly;
+    
+    a{
+        color: colors.$text-color;
+        text-decoration: none;
+        transition: color .3s ease-in-out;
+
+        &:hover{
+            color: colors.$light-green;
+            transition: color .3s ease-in-out;
+        }
+    }
+    
+}
+
+
+/*tutoriail*/
+
+
+
+h1{
+    font-size: fonts.$font-size-h2;
+    line-height: 3rem;
+    font-weight: 600;
+    color: colors.$text-color;
+    margin-bottom: 2rem;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+ol {
+    padding: 0 2rem;
+    li{
+    color: colors.$text-color;
+    line-height: 170%;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    padding: 8px 15px;
+        
+    span{
+        color: colors.$light-green;
+    }
+
+    }
+}
+
+
+.main{
+    margin:5rem auto 5rem auto;
+    padding: 1rem 1rem;
+    img{
+        width: 50%;
+        display: block;
+        margin: 0 auto 2rem auto;
+    }
+
+}
+
+@media (min-width: 900px){
+    h1{
+        margin-bottom: 3rem;
+    }
+    .main{
+        margin: 5rem auto;
+        padding: 1rem 2rem;
+        img{
+            width: 30%;
+            display: block;
+            margin: 0 auto 2rem auto;
+        }
+    }
+}
+
+@media (min-width: 1400px){
+   
+    .main{
+        display: flex;
+        align-items: center;
+        width: 1200px;
+        
+        img{
+            width: 30%;
+            height: auto;
+            margin-right: 5rem;
+
+        }
+    }
+
+}
+
+
+/* Footer Styles */
+
+.footer{
+    p{
+        color: colors.$text-color;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+}
+
+.footer__nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 0rem;
+    width: 60%;
+    margin: 0 auto;
+
+
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: 2rem;
+        color: colors.$primary-color;
+        transition: color .3s ease-in-out;
+
+        &:hover{
+            color: colors.$light-green;
+            transition: color .2s ease-in-out;
+        }
+    }
+
+}
+
+
+/* Footer-nav Media Queries */
+
+@media (min-width: 900px){
+    .footer__nav{
+        width: 30%;
+    }
+}
+
+@media (min-width: 1400px){
+    .footer__nav{
+        width: 20%;
+    }
+}
+
+/*=============================================
+=            Scrollbar Styles            =
+=============================================*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Background */
+  ::-webkit-scrollbar-track {
+    background-color: colors.$background-color;
+  
+  }
+   
+  /* Scroll bar handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(92,208,163);
+background: linear-gradient(170deg, rgba(92,208,163,1) 0%, rgba(82,233,125,1) 73%, rgba(74,251,98,1) 100%);
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  //::-webkit-scrollbar-thumb:hover {
+
+  //}
+
+/*=====  End of Scrollbar Styles  ======*/
+
+
+
+
+

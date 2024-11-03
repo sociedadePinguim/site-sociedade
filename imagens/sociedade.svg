@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 825 825" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-127.719,-127.719)">
+        <g>
+            <g transform="matrix(0.921763,0,0,0.921763,-19.4478,8.9842)">
+                <circle cx="606.933" cy="576.087" r="447.275" style="fill:rgb(34,41,51);"/>
+            </g>
+            <g transform="matrix(0.90749,0,0,0.90749,-4604.97,-104.422)">
+                <circle cx="5669.46" cy="710.115" r="358.947" style="fill:rgb(88,162,133);"/>
+            </g>
+            <g transform="matrix(0.0454697,0,0,0.0454697,-88.0119,507.711)">
+                <circle cx="5669.46" cy="710.115" r="358.947" style="fill:rgb(88,162,133);"/>
+            </g>
+            <g transform="matrix(0.0454697,0,0,0.0454697,654.091,507.711)">
+                <circle cx="5669.46" cy="710.115" r="358.947" style="fill:rgb(88,162,133);"/>
+            </g>
+            <g transform="matrix(0.926074,0,0,0.946528,34.2171,202.288)">
+                <g transform="matrix(0.376433,-1.46907,1.07988,0.264878,-407.018,520.17)">
+                    <path d="M226.387,535.227C230.055,527.89 236.074,523.516 242.5,523.516C248.926,523.516 254.945,527.89 258.613,535.227C272.389,562.778 290,598 290,598L195,598C195,598 212.611,562.778 226.387,535.227Z" style="fill:rgb(205,79,76);"/>
+                </g>
+                <g transform="matrix(1.04895,0,0,1.02628,-41.0683,-246.451)">
+                    <circle cx="566" cy="595" r="228" style="fill:white;"/>
+                    <clipPath id="_clip1">
+                        <circle cx="566" cy="595" r="228"/>
+                    </clipPath>
+                    <g clip-path="url(#_clip1)">
+                        <g transform="matrix(1.16132,0,0,1.16132,-30.1388,-2.30012)">
+                            <path d="M367.781,392.113C423.909,328.501 543.491,369.778 513.328,479.198C493.636,550.636 401.214,647.82 540,710.656C626.879,749.991 758.014,587.826 758.014,587.826L754.599,331.7L540,233.109L348.212,318C348.212,318 373.937,376.386 367.781,392.113Z" style="fill:rgb(34,40,49);"/>
+                        </g>
+                    </g>
+                    <circle cx="566" cy="595" r="228" style="fill:none;stroke:rgb(34,40,49);stroke-width:14.6px;"/>
+                </g>
+                <g transform="matrix(1.21817,0,0,1.19184,-156.867,-317.162)">
+                    <circle cx="453.164" cy="496.164" r="18.164" style="fill:rgb(34,40,49);"/>
+                </g>
+            </g>
+            <g transform="matrix(-0.656433,-0.754384,0.754384,-0.656433,3727.65,5258.21)">
+                <g transform="matrix(0.130556,-0.991441,0.991441,0.130556,3952.53,5847.82)">
+                    <text x="5310.45px" y="670.34px" style="font-family:'Ubuntu-Bold', 'Ubuntu', sans-serif;font-weight:700;font-size:66.667px;fill:rgb(88,162,133);">P</text>
+                </g>
+                <g transform="matrix(0.276058,-0.961141,0.961141,0.276058,3267.27,5554.44)">
+                    <text x="5320.81px" y="608.327px" style="font-family:'Ubuntu-Bold', 'Ubuntu', sans-serif;font-weight:700;font-size:66.667px;fill:rgb(88,162,133);">I</text>
+                </g>
+                <g transform="matrix(0.42984,-0.902905,0.902905,0.42984,2526.85,5139.18)">
+                    <text x="5332.63px" y="568.834px" style="font-family:'Ubuntu-Bold', 'Ubuntu', sans-serif;font-weight:700;font-size:66.667px;fill:rgb(88,162,133);">N</text>
+                </g>
+                <g transform="matrix(0.600199,-0.799851,0.799851,0.600199,1739.99,4493.52)">
+                    <text x="5364.92px" y="506.229px" style="font-family:'Ubuntu-Bold', 'Ubuntu', sans-serif;font-weight:700;font-size:66.667px;fill:rgb(88,162,133);">G</text>
+                </g>
+                <g transform="matrix(0.744726,-0.66737,0.66737,0.744726,1077.2,3724.12)">
+                    <text x="5406.64px" y="453.977px" style="font-family:'Ubuntu-Bold', 'Ubuntu', sans-serif;font-weight:700;font-size:66.667px;fill:rgb(88,162,133);">U</text>
+                </g>
+                <g transform="matrix(0.840122,-0.542398,0.542398,0.840122,649.593,3026.27)">
+                    <text x="5458.2px" y="411.24px" style="font-family:'Ubuntu-Bold', 'Ubuntu', sans-serif;font-weight:700;font-size:66.667px;fill:rgb(88,162,133);">I</text>
+                </g>
+                <g transform="matrix(0.922834,-0.385199,0.385199,0.922834,274.074,2145.89)">
+                    <text x="5492.96px" y="388.884px" style="font-family:'Ubuntu-Bold', 'Ubuntu', sans-serif;font-weight:700;font-size:66.667px;fill:rgb(88,162,133);">M</text>
+                </g>
+            </g>
+            <g transform="matrix(0.703807,0.710391,-0.710391,0.703807,-2945.86,-3962.94)">
+                <g transform="matrix(0.119994,-0.992775,0.992775,0.119994,4007.59,5862.51)">
+                    <text x="5310.68px" y="670.682px" style="font-family:'Ubuntu-Bold', 'Ubuntu', sans-serif;font-weight:700;font-size:66.667px;fill:rgb(88,162,133);">S</text>
+                </g>
+                <g transform="matrix(0.30868,-0.951166,0.951166,0.30868,3094.55,5482.66)">
+                    <text x="5318.99px" y="612.483px" style="font-family:'Ubuntu-Bold', 'Ubuntu', sans-serif;font-weight:700;font-size:66.667px;fill:rgb(88,162,133);">O</text>
+                </g>
+                <g transform="matrix(0.494072,-0.869421,0.869421,0.494072,2230.53,4921.22)">
+                    <text x="5343.75px" y="544.063px" style="font-family:'Ubuntu-Bold', 'Ubuntu', sans-serif;font-weight:700;font-size:66.667px;fill:rgb(88,162,133);">C</text>
+                </g>
+                <g transform="matrix(0.617683,-0.786427,0.786427,0.617683,1670.04,4415.97)">
+                    <text x="5376.85px" y="490.349px" style="font-family:'Ubuntu-Bold', 'Ubuntu', sans-serif;font-weight:700;font-size:66.667px;fill:rgb(88,162,133);">I</text>
+                </g>
+                <g transform="matrix(0.729631,-0.683841,0.683841,0.729631,1147.29,3818.6)">
+                    <text x="5402.82px" y="458.386px" style="font-family:'Ubuntu-Bold', 'Ubuntu', sans-serif;font-weight:700;font-size:66.667px;fill:rgb(88,162,133);">E</text>
+                </g>
+                <g transform="matrix(0.844176,-0.536066,0.536066,0.844176,624.874,2985.51)">
+                    <text x="5447.82px" y="417.907px" style="font-family:'Ubuntu-Bold', 'Ubuntu', sans-serif;font-weight:700;font-size:66.667px;fill:rgb(88,162,133);">D</text>
+                </g>
+                <g transform="matrix(0.931455,-0.363857,0.363857,0.931455,237.951,2029.54)">
+                    <text x="5505.65px" y="383.214px" style="font-family:'Ubuntu-Bold', 'Ubuntu', sans-serif;font-weight:700;font-size:66.667px;fill:rgb(88,162,133);">A</text>
+                </g>
+                <g transform="matrix(0.986065,-0.166361,0.166361,0.986065,17.6947,931.626)">
+                    <text x="5569.85px" y="360.191px" style="font-family:'Ubuntu-Bold', 'Ubuntu', sans-serif;font-weight:700;font-size:66.667px;fill:rgb(88,162,133);">D</text>
+                </g>
+                <g transform="matrix(0.999745,0.0225906,-0.0225906,0.999745,9.36292,-127.285)">
+                    <text x="5638.38px" y="350.766px" style="font-family:'Ubuntu-Bold', 'Ubuntu', sans-serif;font-weight:700;font-size:66.667px;fill:rgb(88,162,133);">E</text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
