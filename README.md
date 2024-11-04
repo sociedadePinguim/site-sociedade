@@ -1,5 +1,5 @@
 # Sociedade-Pinguim 
-Site oficial da comunidade Pinguim de desenvolvedores de amantes de Linux
+Site oficial da comunidade Pinguim de desenvolvedores de amantes de Linux e Software Livre
 
 ### Objetivo
 
@@ -12,7 +12,7 @@ Primeiramente iniciei o design no Figma, em seguida desenvolvi todas as telas co
 
 ### Projeto online
 
-Fiz o deploy desse projeto no **Netfly** para que fique online para testes.
+Fiz o deploy desse projeto no **Netfly** para que fique online.
 
 [Site](https://sociedadepinguim.com.br)
 
