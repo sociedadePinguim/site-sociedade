@@ -15,9 +15,7 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css">
 
-    <!--Simple Scrollbar-->
-
-    <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css" />
+    
 
     <!-- Main CSS -->
 
@@ -29,12 +27,12 @@
 <body>
     <!--Header-->
     <header class="header">
-        <img src="imagens/sociedade.svg" width="200px" height="200px" alt="logo" class="logo">
+        <img src="imagens/sociedade.svg" width="20%" height="40%" alt="logo" class="logo">
         <nav class="header-nav">
             <ul class="header-nav__nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="podcast.html">Podcast</a></li>
-                <li><a href="curso.html" >Cursos</a></li>
+                <li><a href="#quem">Quem somos</a></li>
+                <li><a href="#podcast">Podcast</a></li>
+                
                
             </ul>
         </nav>
@@ -54,10 +52,10 @@
         <!--About us-->
 
         <section class="about-us">
-            <div class="about-us__content">
+            <div id="quem" class="about-us__content">
                 <img src="/imagens/sobre01.png" class="about-img" alt="imagens de mãos">
                 <div class="about-us__text">
-                    <h2>Quem somos</h2>
+                    <h2  >Quem somos</h2>
                     <p>A sociedade pinguim é um grupo formado por pessoas que amam tecnologia.
                         Temos o objetivo propagar o open source, software livre e o Linux e é claro, falar sobre Games.</p>
                     <p>A ideia do projeto surgiu como uma brincadeira entre dois colegas e logo se transformou em uma
@@ -80,7 +78,13 @@
 
                 </div>
                 
+            </div >
+            <div  class="header" id="podcast">
+                <iframe src="https://castbox.fm/app/castbox/player/id4007526?v=8.22.11&autoplay=1" frameborder="0" width="80%" height="500"></iframe>
             </div>
+
+
+        
         </section>
     </main>
     <!--End of Main-->

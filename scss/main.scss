@@ -1,0 +1,497 @@
+
+
+
+@use 'colors';
+@use 'fonts';
+@use 'animations';
+
+
+
+/* Classes reutilizáveis */
+
+.bg-gray{
+    background-color: #1F242D;
+}
+
+.link{ 
+    color: colors.$light-green;
+    font-weight: 600;
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+body{
+    line-height: fonts.$font-size-body;
+    font-family: fonts.$font-family;
+    background: url('/imagens/bg.jpg') no-repeat, colors.$background-color;
+    background-position: top 0px left -500px ;
+}
+
+
+/* Body Media Queries */
+
+@media (min-width: 900px){
+    body{
+        background-size: cover;
+        background: url('/imagens/bg.jpg') no-repeat, colors.$background-color;
+        background-position: center top -350px;
+    }
+}
+
+.header{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 50px 0 0 0;
+}
+
+
+.header-nav{
+ background-color: colors.$navbar-background;
+ padding: 1rem;
+ border-radius: 3px;
+ width: 300px;
+ margin: 15px 0 0 0;
+}
+
+.header-nav__nav-links{
+    display: flex;
+    justify-content: space-evenly;
+    
+    a{
+        color: colors.$text-color;
+        text-decoration: none;
+        transition: color .3s ease-in-out;
+
+        &:hover{
+            color: colors.$light-green;
+            transition: color .3s ease-in-out;
+        }
+    }
+    
+}
+
+
+/* Main Styles */
+
+.main{
+    margin: 2rem 0 0 0;
+    padding: 1rem 0;
+}
+
+.intro-text{
+    padding: 01rem;
+    h1{
+        color: colors.$text-color;
+        font-size: 3rem;
+        line-height: 150%;
+        text-align: center;
+    }
+
+    p{
+        color: colors.$text-color;
+        line-height: 150%;
+        font-size: fonts.$font-size-p;
+        letter-spacing: 0.5px;
+        margin: 2rem;
+        text-align: center;
+    }
+}
+
+
+/* Intro text Media Queries */
+
+@media (min-width: 900px){
+    .intro-text{
+        min-height: 300px;
+        height: auto;
+        width: 80%;
+        margin: 0 auto;
+        h1{
+            font-size: 6rem;
+        }
+    }
+}
+
+@media (min-width: 1400px){
+    .intro-text{
+        width: 60%;
+        margin: 2rem auto 2rem auto;
+
+        h1{
+            font-size: 6rem;
+        }
+    }
+}
+
+@media (min-width: 1600px){
+    .intro-text{
+        width: 50%;
+        margin: 2rem auto 2rem auto;
+
+        h1{
+            font-size: 6rem;
+        }
+
+        p{
+            width: 70%;
+            margin: 2rem auto;
+        }
+    }
+}
+
+
+/* About us styles */
+
+
+.about-us{
+    margin: 1rem 0 1rem 0;
+}
+
+.about-us__content{
+    padding: 3rem 1rem;
+}
+
+.about-us__content{
+
+    h2{
+        text-align: center;
+        font-size: fonts.$font-size-h2;
+        color: colors.$text-color;
+        margin: 2rem 0 2rem 0;
+        color: colors.$light-green;
+        font-weight: fonts.$fw-semi-bold;
+    }
+
+    p{
+        color: colors.$text-color;
+        line-height: 150%;
+        font-size: fonts.$font-size-p;
+        letter-spacing: 0.5px;
+        margin-bottom: 2rem;
+    }
+}
+
+.about-us__text{
+    padding: 0 1rem;
+}
+
+
+/* about-us Media queries */
+
+@media (min-width: 900px){
+
+    .about-us__content{
+        display: flex;
+        align-items: center;
+
+        h2{
+            font-size: 2.5rem;
+            text-align: left;
+        }
+
+        .about-img{
+            width: 100%;
+        }
+    }
+
+    .about-us__comeco{
+        display: flex;
+        flex-flow: row-reverse;
+    }
+     
+    .about-us__text{
+        padding: 0 1.5rem;
+        width: 100%;
+    }
+}
+
+@media (min-width: 1400px){
+    .about-us__content{
+        width: 80%;
+        margin: 0 auto;
+
+        h2{
+            font-size: 3rem;
+            margin-bottom: 3rem;
+            
+        }
+    }
+
+    .about-us__text{
+        padding: 0 3rem;
+        width: 100%;
+    }
+}
+
+@media (min-width: 1600px){
+    .about-us__content{
+
+        h2{
+            font-size: 4rem;
+            margin-bottom: 4rem;
+            
+        }
+    }
+
+    .about-us__text{
+        padding: 0 3rem;
+    }
+}
+
+
+/*Equipe*/
+
+.equipe{
+    margin: 50px 0 0 0;
+    h2{
+        font-size: fonts.$font-size-h2;
+        color: colors.$primary-color;
+        text-align: center;
+    }
+
+    p{
+        font-size: fonts.$font-size-p;
+        text-align: center;
+        color: colors.$text-color;
+        width: 80%;
+        margin: 40px auto;
+        line-height: 160%;
+    }
+}
+
+
+
+
+.equipe__cards-card{
+    background-color: colors.$light-grey;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    min-height: 500px;
+    margin: 0 auto 50px auto;
+    border-radius: 5px;
+    padding: 50px 0 0 0;
+}
+
+.equipe__card--body{
+     text-align: center;
+
+     h4{
+         margin: 40px 0 0 0;
+         font-size: 2.3rem;
+         color: colors.$light-green;
+     }
+
+     p{
+        margin: 40px auto;
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+        color: colors.$text-color;
+        text-align: center;
+        width: 100%;
+     }
+}
+
+.equip__card--footer{
+    background-color: #49576D;
+    width: 100%;
+    padding: 25px 0;
+    border-radius: 0 0 5px 5px;
+}
+
+
+.card__footer--icons{
+    display: flex;
+    width: 200px;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    transition: all .2s ease-in-out;
+
+}
+
+.card__footer--icons a{
+        transform: translateY(0px);
+        transition: all .3s ease-in-out;
+
+        &:hover{
+            transform: translateY(-5px);
+            transition: all .3s ease-in-out;
+        }
+}
+
+.card__footer--icons a{
+    color: colors.$text-color;
+    font-size: 1.5rem;
+}
+
+
+
+/* Equipe media queries */
+
+
+@media (min-width: 900px){
+
+    .equipe{
+        margin-top: 100px;
+
+        h2{
+            font-size: 3rem;
+            color: colors.$light-green;
+        }
+
+    }
+
+    .equipe__cards{
+        width: 80%;
+        margin: 60px auto 100px auto;
+        display: flex;
+        flex-flow: wrap;
+    }
+
+    .equipe__cards-card{
+        width: 46%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 1400px){
+    .equipe__cards{
+      width: 90%;
+    }
+
+    .equipe__cards-card{
+        width: 300px;
+    }
+}
+
+@media (min-width: 1600px){
+    .equipe__cards{
+    width: 80%;
+
+    }
+
+    .equipe__cards-card{
+        width: 300px;
+    }
+}
+
+
+@media (min-width: 1900px){
+    .equipe__cards{
+    width: 80%;
+
+    }
+
+    .equipe__cards-card{
+        width: 350px;
+    }
+}
+
+/* Footer Styles */
+
+.footer{
+    p{
+        color: colors.$text-color;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+}
+
+.footer__nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 0rem;
+    width: 60%;
+    margin: 0 auto;
+
+
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: 2rem;
+        color: colors.$primary-color;
+        transition: color .3s ease-in-out;
+
+        &:hover{
+            color: colors.$light-green;
+            transition: color .2s ease-in-out;
+        }
+    }
+
+}
+
+
+
+
+/* Footer-nav Media Queries */
+
+@media (min-width: 900px){
+    .footer__nav{
+        width: 30%;
+    }
+}
+
+@media (min-width: 1400px){
+    .footer__nav{
+        width: 20%;
+    }
+}
+
+
+/*=============================================
+=            Tipywriter effect            =
+=============================================*/
+
+span {
+    border-right: .08em solid;
+    animation: caret 1s steps(1) infinite;
+  }
+  
+  @keyframes caret {
+    50% {
+      border-color: transparent;
+    }
+  }
+
+
+/*=====  End of Tipywriter effect  ======*/
+
+
+
+/*=============================================
+=            Scrollbar Styles            =
+=============================================*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Background */
+  ::-webkit-scrollbar-track {
+    background-color: colors.$background-color;
+  
+  }
+   
+  /* Scroll bar handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(92,208,163);
+background: linear-gradient(170deg, rgba(92,208,163,1) 0%, rgba(82,233,125,1) 73%, rgba(74,251,98,1) 100%);
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  //::-webkit-scrollbar-thumb:hover {
+
+  //}
+
+/*=====  End of Scrollbar Styles  ======*/
+
+
+
