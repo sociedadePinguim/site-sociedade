@@ -1,9 +1,26 @@
 @charset "UTF-8";
 /* Import from Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap");
+
 /* Variables */
 /* Responsive font sizes */
 /* Classes reutilizáveis */
+
+h2 {
+  color: #ffff;
+  font-size: 2rem;
+  line-height: 150%;
+  text-align: center;
+}
+
+p {
+  color: #ffff;
+  line-height: 150%;
+  font-size: 1.3rem;
+  letter-spacing: 0.5px;
+  margin: 2rem;
+}
+
 .bg-gray {
   background-color: #1F242D;
 }
@@ -13,6 +30,7 @@
   font-weight: 600;
   text-decoration: none;
 }
+
 .link:hover {
   text-decoration: underline;
 }
@@ -32,6 +50,7 @@ body {
     background-position: center top -350px;
   }
 }
+
 .header {
   display: flex;
   flex-flow: column;
@@ -51,11 +70,13 @@ body {
   display: flex;
   justify-content: space-evenly;
 }
+
 .header-nav__nav-links a {
   color: #ffff;
   text-decoration: none;
   transition: color 0.3s ease-in-out;
 }
+
 .header-nav__nav-links a:hover {
   color: #5CD0A3;
   transition: color 0.3s ease-in-out;
@@ -70,12 +91,14 @@ body {
 .intro-text {
   padding: 1rem;
 }
+
 .intro-text h1 {
   color: #ffff;
   font-size: 3rem;
   line-height: 150%;
   text-align: center;
 }
+
 .intro-text p {
   color: #ffff;
   line-height: 150%;
@@ -93,32 +116,39 @@ body {
     width: 80%;
     margin: 0 auto;
   }
+  
   .intro-text h1 {
     font-size: 6rem;
   }
 }
+
 @media (min-width: 1400px) {
   .intro-text {
     width: 60%;
     margin: 2rem auto 2rem auto;
   }
+
   .intro-text h1 {
     font-size: 6rem;
   }
 }
+
 @media (min-width: 1600px) {
   .intro-text {
     width: 50%;
     margin: 2rem auto 2rem auto;
   }
+
   .intro-text h1 {
     font-size: 6rem;
   }
+
   .intro-text p {
     width: 70%;
     margin: 2rem auto;
   }
 }
+
 /* About us styles */
 .about-us {
   margin: 1rem 0 1rem 0;
@@ -136,6 +166,7 @@ body {
   color: #5CD0A3;
   font-weight: 600;
 }
+
 .about-us__content p {
   color: #ffff;
   line-height: 150%;
@@ -154,10 +185,12 @@ body {
     display: flex;
     align-items: center;
   }
+
   .about-us__content h2 {
     font-size: 2.5rem;
     text-align: left;
   }
+
   .about-us__content .about-img {
     width: 100%;
   }
@@ -172,11 +205,13 @@ body {
     width: 100%;
   }
 }
+
 @media (min-width: 1400px) {
   .about-us__content {
     width: 80%;
     margin: 0 auto;
   }
+
   .about-us__content h2 {
     font-size: 3rem;
     margin-bottom: 3rem;
@@ -187,6 +222,7 @@ body {
     width: 100%;
   }
 }
+
 @media (min-width: 1600px) {
   .about-us__content h2 {
     font-size: 4rem;
@@ -197,133 +233,18 @@ body {
     padding: 0 3rem;
   }
 }
-/*Equipe*/
-.equipe {
-  margin: 50px 0 0 0;
-}
-.equipe h2 {
-  font-size: 2.25rem;
-  color: #58A285;
-  text-align: center;
-}
-.equipe p {
-  font-size: 1.3rem;
-  text-align: center;
-  color: #ffff;
-  width: 80%;
-  margin: 40px auto;
-  line-height: 160%;
-}
 
-.equipe__cards-card {
-  background-color: #363F4F;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  justify-content: space-between;
-  width: 80%;
-  min-height: 500px;
-  margin: 0 auto 50px auto;
-  border-radius: 5px;
-  padding: 50px 0 0 0;
-}
-
-.equipe__card--body {
-  text-align: center;
-}
-.equipe__card--body h4 {
-  margin: 40px 0 0 0;
-  font-size: 2.3rem;
-  color: #5CD0A3;
-}
-.equipe__card--body p {
-  margin: 40px auto;
-  font-size: 1.2rem;
-  letter-spacing: 1px;
-  color: #ffff;
-  text-align: center;
-  width: 100%;
-}
-
-.equip__card--footer {
-  background-color: #49576D;
-  width: 100%;
-  padding: 25px 0;
-  border-radius: 0 0 5px 5px;
-}
-
-.card__footer--icons {
-  display: flex;
-  width: 200px;
-  justify-content: space-evenly;
-  margin: 0 auto;
-  transition: all 0.2s ease-in-out;
-}
-
-.card__footer--icons a {
-  transform: translateY(0px);
-  transition: all 0.3s ease-in-out;
-}
-.card__footer--icons a:hover {
-  transform: translateY(-5px);
-  transition: all 0.3s ease-in-out;
-}
-
-.card__footer--icons a {
-  color: #ffff;
-  font-size: 1.5rem;
-}
-
-/* Equipe media queries */
-@media (min-width: 900px) {
-  .equipe {
-    margin-top: 100px;
-  }
-  .equipe h2 {
-    font-size: 3rem;
-    color: #5CD0A3;
-  }
-
-  .equipe__cards {
-    width: 80%;
-    margin: 60px auto 100px auto;
-    display: flex;
-    flex-flow: wrap;
-  }
-
-  .equipe__cards-card {
-    width: 46%;
-    margin-bottom: 30px;
-  }
-}
-@media (min-width: 1400px) {
-  .equipe__cards {
-    width: 90%;
-  }
-
-  .equipe__cards-card {
-    width: 300px;
-  }
-}
-@media (min-width: 1600px) {
-  .equipe__cards {
-    width: 80%;
-  }
-
-  .equipe__cards-card {
-    width: 300px;
-  }
-}
-@media (min-width: 1900px) {
-  .equipe__cards {
-    width: 80%;
-  }
-
-  .equipe__cards-card {
-    width: 350px;
-  }
-}
 /* Footer Styles */
+
+.qr{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width:20% ;
+}
+
+
+
 .footer p {
   color: #ffff;
   font-size: 1rem;
@@ -335,16 +256,22 @@ body {
   display: flex;
   justify-content: space-evenly;
   padding: 2rem 0rem;
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
+ 
 }
+
 .footer__nav a {
   color: white;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 2.2rem;
   color: #58A285;
   transition: color 0.3s ease-in-out;
+ 
+ 
+  
 }
+
 .footer__nav a:hover {
   color: #5CD0A3;
   transition: color 0.2s ease-in-out;
@@ -353,47 +280,63 @@ body {
 /* Footer-nav Media Queries */
 @media (min-width: 900px) {
   .footer__nav {
-    width: 30%;
+    width: 25%;
   }
 }
+
 @media (min-width: 1400px) {
   .footer__nav {
     width: 20%;
   }
 }
-/*=============================================
-=            Tipywriter effect            =
-=============================================*/
-span {
-  border-right: 0.08em solid;
-  animation: caret 1s steps(1) infinite;
-}
 
-@keyframes caret {
-  50% {
-    border-color: transparent;
-  }
-}
-/*=====  End of Tipywriter effect  ======*/
-/*=============================================
-=            Scrollbar Styles            =
-=============================================*/
-/* width */
+/* Scrollbar Styles */
 ::-webkit-scrollbar {
   width: 10px;
 }
 
-/* Background */
 ::-webkit-scrollbar-track {
   background-color: #222831;
 }
 
-/* Scroll bar handle */
 ::-webkit-scrollbar-thumb {
   background: #5cd0a3;
   background: linear-gradient(170deg, #5cd0a3 0%, #52e97d 73%, #4afb62 100%);
   border-radius: 5px;
 }
 
-/* Handle on hover */
-/*=====  End of Scrollbar Styles  ======*/
+/* Responsividade para telas menores */
+@media (max-width: 600px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+    margin: 1rem;
+  }
+
+  .intro-text h1 {
+    font-size: 2rem;
+  }
+
+  .about-us__content h2 {
+    font-size: 1.75rem;
+    margin: 1.5rem 0;
+  }
+
+  .about-us__text {
+    padding: 0 1rem;
+  }
+
+  .footer__nav {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-nav {
+    width: 100%;
+    padding: 1rem;
+  }
+}
